@@ -2,7 +2,7 @@
 
 
 public class Person{
-
+    private int ID;
     private String firstName;
     private String lastName;
     private int age;
@@ -31,5 +31,13 @@ public class Person{
     }
     public String userInfoToString(){
         return "Hi "+firstName+ " "+lastName+ " You are "+age+ " Years old";
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 }
